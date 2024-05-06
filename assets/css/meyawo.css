@@ -70,6 +70,9 @@ body {
   color: #212529;
   text-align: left;
   background-color: #fff;
+  overflow-x: hidden;
+  scale: 0 0;
+  transition: .5s ease-out;
 }
 
 [tabindex="-1"]:focus {
