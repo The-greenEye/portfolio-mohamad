@@ -36,3 +36,7 @@ $('#nav-toggle').click(function(){
     $(this).toggleClass('is-active')
     $('ul.nav').toggleClass('show');
 });
+
+window.onload = function () {
+    document.body.style.scale = '1 1'
+}
